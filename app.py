@@ -1,9 +1,9 @@
 import streamlit as st
 from api import get_recipes, get_recipe_details
 
-st.set_page_config(page_title="Recipe Recommender", page_icon="🍳")
+st.set_page_config(page_title="YumBot", page_icon="🍳")
 
-st.title("🍽️ Recipe Recommender Bot")
+st.title("🍽️ YumBot")
 st.write("Enter the ingredients you have, and get delicious recipes!")
 
 # Input from user

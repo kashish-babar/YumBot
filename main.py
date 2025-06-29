@@ -9,7 +9,7 @@ def clean_input(raw_input):
 
 
 def main():
-    print("👋 Welcome to the Recipe Recommender Bot!")
+    print("👋 Welcome to the YumBot!")
 
     while True:
         user_input = input("\nEnter ingredients you have (comma-separated): ").strip()
