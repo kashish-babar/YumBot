@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#a83254"               # Berry Red (buttons)
+backgroundColor = "#f7c5d3"            # Warm Blush (main background)
+secondaryBackgroundColor = "#f3b0c1"   # Light Mauve (sidebar/cards)
+textColor = "#181818"                  # Dark text for full visibility
+font = "sans serif"

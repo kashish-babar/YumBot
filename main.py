@@ -1,7 +1,6 @@
 from api import get_recipes, get_recipe_details
 
 
-
 def clean_input(raw_input):
     # Split by comma, strip whitespace, and remove empty entries
     ingredients = [item.strip() for item in raw_input.split(",") if item.strip()]
@@ -49,7 +48,6 @@ def main():
                     print("   ⚠️ No detailed instructions found.")
 
                 print()  # newline for spacing
-
 
         # Ask if user wants to try again
         again = input("Would you like to search again? (y/n): ").strip().lower()
